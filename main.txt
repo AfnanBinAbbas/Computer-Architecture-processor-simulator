@@ -189,9 +189,7 @@ int main()
                 // }
                 break;
             }
-        case 3:
-            break;
-        // MANUALLY search for any key with its value and left 4 digits
+      
         case 2:
         {
             // Retrieve values from the hash table
@@ -219,6 +217,9 @@ int main()
             }
             break;
         }
+	  case 3:
+            break;
+        // MANUALLY search for any key with its value and left 4 digits
         default:
             cout << "\nInvalid choice!";
             break;
